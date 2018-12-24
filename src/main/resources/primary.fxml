@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.MainController">
+   <children>
+      <ListView fx:id="listView" onMouseDragExited="#dragOver" onMouseDragOver="#dragOver" onMouseDragReleased="#dragOver" prefHeight="380.0" prefWidth="600.0" AnchorPane.bottomAnchor="113.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="apploadButton" layoutY="417.0" mnemonicParsing="false" onAction="#appload" prefHeight="38.0" prefWidth="600.0" text="Load File" textFill="#02ab02" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="deleteButton" layoutY="455.0" mnemonicParsing="false" onAction="#delete" prefHeight="38.0" prefWidth="600.0" text="Delete File" textFill="#da0d0d" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="downloadButton" layoutY="379.0" mnemonicParsing="false" onAction="#download" prefHeight="38.0" prefWidth="600.0" text="Save to PC" AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
